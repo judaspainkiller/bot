@@ -7,8 +7,8 @@ from PIL import Image
 import os
 import cv2
 
-f = open(r'C:\Users\Tamara Sheverdyaeva\bots_tg\anecs.txt', 'r' , encoding='UTF-8')
-# f = open(r'anecs.txt', 'r', encoding='UTF-8')
+# f = open(r'C:\Users\Tamara Sheverdyaeva\bots_tg\anecs.txt', 'r' , encoding='UTF-8')
+f = open(r'bot/anecs.txt', 'r', encoding='UTF-8')
 anecdotes = f.read().split('\n')
 f.close
 
